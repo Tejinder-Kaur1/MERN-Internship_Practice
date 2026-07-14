@@ -1,4 +1,4 @@
-# 🚀 MERN Stack Internship Practice
+MERN Stack Internship Practice
 
 This repository contains my weekly projects and practice completed during my 45-day MERN Stack Internship.
 
