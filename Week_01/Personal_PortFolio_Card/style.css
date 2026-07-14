@@ -1,0 +1,109 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Body */
+body {
+  background: linear-gradient(135deg, #4facfe, #00f1fe64);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card */
+.parent {
+  width: 360px;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.parent:hover {
+  transform: translateY(-8px);
+}
+
+/* Image Section */
+.image {
+  padding: 25px;
+}
+
+.image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #4facfe;
+  object-fit: cover;
+}
+
+/* Bio */
+.bio {
+  padding: 0 25px 20px;
+}
+
+.bio h1 {
+  font-size: 24px;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.bio h2 {
+  font-size: 16px;
+  color: #666;
+  font-weight: 400;
+}
+
+/* Links */
+.links {
+  padding: 20px;
+  background: #f5f5f5;
+}
+
+.links ul {
+  list-style: none;
+}
+
+.links li {
+  margin: 15px 0;
+}
+
+.links a {
+  display: block;
+  text-decoration: none;
+  background: #4facfe;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.links a:hover {
+  background: #0f7ae5;
+  transform: scale(1.05);
+}
+
+/* Responsive */
+@media (max-width: 400px) {
+  .parent {
+    width: 90%;
+  }
+
+  .bio h1 {
+    font-size: 20px;
+  }
+
+  .bio h2 {
+    font-size: 14px;
+  }
+}

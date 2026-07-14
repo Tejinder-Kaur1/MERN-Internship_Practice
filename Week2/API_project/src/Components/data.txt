@@ -1,0 +1,19 @@
+{/* 
+            <h2>Adress</h2>
+            <h4>Address is: {user?.address.address}</h4>
+            <h4>City is: {user?.address.city}</h4>
+            <h4>State is: {user?.address.state}</h4>
+            <h4>Postal Code is: {user?.address.postalCode}</h4>
+            <h2>Bank Type</h2>
+            <h4>Card Number is: {user?.bank.cardNumber}</h4>
+            <h4>Card Type is: {user?.bank.cardType}</h4>
+            <h4>Card expiry is: {user?.bank.cardExpire}</h4>
+            <h2>Company Type</h2>
+            <h4>Department is: {user?.company.department}</h4>
+            <h4>Name is: {user?.company.name}</h4>
+            <h4>Title is: {user?.company.title}</h4>
+            <h2>Adress</h2>
+            <h4>Address is: {user?.company.address.address}</h4>
+            <h4>City is: {user?.company.address.city}</h4>
+            <h4>State is: {user?.company.address.state}</h4>
+            <h4>Postal Code is: {user?.company.address.postalCode}</h4> */}
