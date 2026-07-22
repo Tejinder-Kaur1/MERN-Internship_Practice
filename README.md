@@ -7,7 +7,7 @@ This repository contains my weekly projects and practice completed during my 45-
 - HTML5
 - CSS3
 - Responsive Web Design
-- Bootstrap
+- Bootstrap 
 - Tailwind CSS
 
 ## Projects
